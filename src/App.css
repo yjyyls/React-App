@@ -1,0 +1,120 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 800px;
+    display: block;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 30px;
+    padding: 0 20px;
+    font-size: 1.5rem;
+    /* background-color: rgb(160, 119, 65); */
+    border-radius: 12px;
+    /* border: 1px solid #002171; */
+}
+.add-form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f5af18;
+    border-radius: 12px;
+    margin: 30px auto;
+    padding: 30px;
+    justify-content: space-between;
+}
+.input-box {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.form-label {
+    font-size: 25px;
+    font-weight: 700;
+}
+.input-title,
+.input-content {
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    height: 40px;
+    padding: 0 12px;
+    width: 240px;
+}
+.add-button {
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    border: none;
+    border-radius: 13px;
+}
+.add-button:hover {
+    cursor: pointer;
+    border: 1px solid gray;
+    margin-top: -2px;
+    margin-left: 0px;
+    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.2);
+}
+.list-container {
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 0 25px;
+}
+.todo-box,
+.done-box {
+    width: 600px;
+}
+.todo-box > h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.done-box > h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.box {
+    margin: 15px auto;
+    border: 3px solid #f5af18;
+    width: 280px;
+    border-radius: 20px;
+    padding: 12px 24px 24px;
+    text-align: center;
+}
+.button-set {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+.button-set > button {
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+    height: 30px;
+    width: 70px;
+}
+.button-set > button:hover {
+    cursor: pointer;
+    /* border: 2px solid #f5af18; */
+    margin-top: -2px;
+    margin-left: 0px;
+    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.2);
+}
