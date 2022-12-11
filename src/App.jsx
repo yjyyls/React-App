@@ -20,20 +20,20 @@ function App() {
 // todos 초기값
 const initialState = [
     {
-        title: "제목1",
-        contents: "내용1",
+        title: "리액트 공부하기",
+        contents: "리액트 공부",
         isDone: false,
         id: uuidv4(),
     },
     {
-        title: "제목2",
-        contents: "내용2",
+        title: "자바스크립트 공부하기",
+        contents: "자바스크립트 공부",
         isDone: true,
         id: uuidv4(),
     },
     {
-        title: "제목3",
-        contents: "내용3",
+        title: "운동하기",
+        contents: "걷기 운동이라도 하기",
         isDone: false,
         id: uuidv4(),
     },

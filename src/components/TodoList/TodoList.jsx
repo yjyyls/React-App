@@ -5,9 +5,9 @@ const TodoList = ({ todos, setTodos }) => {
     return (
         <div className='list-container'>
             <section className='todo-box'>
-                <h2>Active</h2>
+                <h2>Active 🔥</h2>
                 {todos
-                    .filter((t) => t.isDone === false)
+                    .filter((t) => t.isDone === false) // false인 애들만 가져오기
                     .map((t) => {
                         return (
                             <Todo
@@ -15,16 +15,16 @@ const TodoList = ({ todos, setTodos }) => {
                                 contents={t.contents}
                                 isDone={t.isDone}
                                 setTodos={setTodos}
-                                key={t.id}
+                                key={t.id} // map에는 key값을 넣어줘야함
                                 id={t.id}
                             />
                         );
                     })}
             </section>
             <section className='done-box'>
-                <h2>Done</h2>
+                <h2>Done ✔️</h2>
                 {todos
-                    .filter((t) => t.isDone === true)
+                    .filter((t) => t.isDone === true) // true인 애들만 가져오기
                     .map((t) => {
                         return (
                             <Todo
