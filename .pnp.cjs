@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:4be5e61af2697f3ef09931e14107eee9201ebe50f023a0a980722987105dad5b1d4f4f47c6a65d3b5e7daca8a432668ed2781336e4cc3a70ea7a8b9da8dd1d27#npm:18.2.0"],\
             ["react-scripts", "virtual:4be5e61af2697f3ef09931e14107eee9201ebe50f023a0a980722987105dad5b1d4f4f47c6a65d3b5e7daca8a432668ed2781336e4cc3a70ea7a8b9da8dd1d27#npm:5.0.1"],\
+            ["uuid", "npm:9.0.0"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -9374,6 +9375,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:4be5e61af2697f3ef09931e14107eee9201ebe50f023a0a980722987105dad5b1d4f4f47c6a65d3b5e7daca8a432668ed2781336e4cc3a70ea7a8b9da8dd1d27#npm:18.2.0"],\
             ["react-scripts", "virtual:4be5e61af2697f3ef09931e14107eee9201ebe50f023a0a980722987105dad5b1d4f4f47c6a65d3b5e7daca8a432668ed2781336e4cc3a70ea7a8b9da8dd1d27#npm:5.0.1"],\
+            ["uuid", "npm:9.0.0"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
           "linkType": "SOFT"\
@@ -16522,6 +16524,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-5575a8a75c.zip/node_modules/uuid/",\
           "packageDependencies": [\
             ["uuid", "npm:8.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:9.0.0", {\
+          "packageLocation": "./.yarn/cache/uuid-npm-9.0.0-46c41e3e43-8dd2c83c43.zip/node_modules/uuid/",\
+          "packageDependencies": [\
+            ["uuid", "npm:9.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
